@@ -1,0 +1,8 @@
+{% with firstname="Yobias" %}
+<h1>hello {{firstname}},how old are you?</h1>
+
+<ul>
+    {% for x in mymembersd %}
+    <li>{{x.firstname}}</li>
+    {% endfor %}
+</ul>
