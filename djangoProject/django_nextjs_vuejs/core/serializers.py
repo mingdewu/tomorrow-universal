@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import WaterPlants
+from core.models import WaterPlants
 
 
 class WaterPlantsSerializer(serializers.ModelSerializer):

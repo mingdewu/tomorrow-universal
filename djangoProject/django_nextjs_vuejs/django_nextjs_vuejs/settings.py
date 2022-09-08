@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -37,9 +37,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'rest_framework', # 追加
+    'corsheaders', # 追加
+    'core' # 追加
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',  # 追加
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -48,7 +52,12 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
-
+# MIDDLEWARE　の直下で追加
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)
+MEDIA_URL = '/media/' # 追加
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # 追加
 ROOT_URLCONF = "django_nextjs_vuejs.urls"
 
 TEMPLATES = [
