@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from core.serializers import WaterPlantsSerializer
-from core.models import WaterPlants
+from .models import WaterPlants
 
 
 class WaterPlantsViewSet(viewsets.ModelViewSet):
