@@ -29,7 +29,7 @@ header {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/images/7.jpg");
+    url("/images/19.jpg");
   background-position: center;
   background-size: cover;
   position: relative;

@@ -21,38 +21,6 @@
 <script>
 import WaterPlantCard from '~/components/WaterPlantCard.vue'
 
-const sampleData = [
-    {
-        id:1,
-        name: 'パールグラス',
-        position: '中景〜後景',
-        picture: '/images/12.jpg',
-        difficulty: 'Easy',
-        addition_amount: 'High',
-        leaf_length: 2,
-        water_quality: '弱酸性～中性  軟水～弱硬水'
-    },
-    {
-        id: 2,
-        name: 'キューバパールグラス',
-        position: '前景',
-        picture: '/images/12.jpg',
-        difficulty: 'Hard',
-        addition_amount: 'High',
-        leaf_length: 1,
-        water_quality: '弱酸性～中性  軟水～弱硬水'
-    },
-    {
-        id: 3,
-        name: 'ニューラージパールグラス',
-        position: '前景',
-        picture: '/images/12.jpg',
-        difficulty: 'Medium',
-        addition_amount: 'High',
-        leaf_length: 1,
-        water_quality: '弱酸性～中性  軟水～弱硬水'
-    }
-]
 export default{
     head(){
         return {
@@ -67,27 +35,25 @@ export default{
             waterplants:[]
         }
     },
-    async asyncData({$axios,params}){
-        try{
-            const waterplants = await $axios.$get(`/waterplants/`)
-            return {waterplants}
-        }catch (e){
-            return {
-                waterplants:[]
-            }
-        } 
-    },
-    methods:{
-        async deleteWaterPlant (waterplant_id){
-            try{
-                await this.$axios.$delete(`waterplants/${waterplant_id}/`)
-                const newWaterPlants = await this.$axios.$get(`/waterplants/`)
-                this.waterpalnts= newWaterPlants
-            }catch (e){
-                console.log(e)
-            }
-        }
+    async asyncData ({ $axios, params }) {
+    try {
+      const waterplants = await $axios.$get(`/waterplants/`)
+      return { waterplants }
+    } catch (e) {
+      return { waterplants: [] }
     }
+  },
+  methods: {
+    async deleteWaterPlant (waterplant_id) { // eslint-disable-line
+      try {
+        await this.$axios.$delete(`/waterplants/${waterplant_id}/`) // eslint-disable-line
+        const newWaterPlants = await this.$axios.$get('/waterplants/')
+        this.waterplants = newWaterPlants
+      } catch (e) {
+        console.log(e)
+      }
+    }
+  }
 }
 </script>
 <style scoped>

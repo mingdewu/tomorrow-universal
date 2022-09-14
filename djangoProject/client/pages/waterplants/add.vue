@@ -16,7 +16,7 @@
           >
           <img
             v-else
-            src="@/static/images/banner.jpg"
+            src="@/static/images/7.jpg"
             class="img-fluid"
             style="width: 400px border-radius: 10px box-shadow: 0 1rem 1rem rgba(0,0,0,.7)"
           >

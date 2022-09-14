@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'rest_framework', # 追加
     'corsheaders', # 追加
-    'core' # 追加
+    'core', # 追加
+    'members.apps.MembersConfig'
 ]
 
 MIDDLEWARE = [

@@ -1,6 +1,6 @@
 <template>
     <div class="card water-plant-card">
-      <img :src="waterplant.picture" class="card-img-top">
+      <img :src="waterplant.picture"  style="width:300;height:300"  class="card-img-top">
       <div class="card-body">
         <h5 class="card-title">
           {{ waterplant.name }}
