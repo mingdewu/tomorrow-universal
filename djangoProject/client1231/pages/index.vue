@@ -1,18 +1,9 @@
 <template>
-  <Tutorial />
-</template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
-<template>
   <header>
     <div class="text-box">
-      <h1>自分で作る水草図鑑</h1>
+      <h1>自分で作る自然言語図鑑</h1>
       <p class="mt-3">
-        自分が育てた水草を記録してみよう！
+        自分が作ってホームページを記録してみよう！
       </p>
       <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
         水草一覧
@@ -38,7 +29,7 @@ header {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/images/banner.jpg");
+    url("/images/19.jpg");
   background-position: center;
   background-size: cover;
   position: relative;

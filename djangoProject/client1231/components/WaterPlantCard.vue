@@ -32,4 +32,3 @@
       box-shadow: 0 1rem 1.5rem rgba(0,0,0,.6);
   }
   </style>
-  
