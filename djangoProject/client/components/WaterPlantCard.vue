@@ -6,7 +6,7 @@
           {{ waterplant.name }}
         </h5>
         <p class="card-text">
-          <strong>配置場所:</strong> {{ waterplant.position }}
+          <strong>this:</strong> {{ waterplant.position }}
         </p>
         <div class="action-buttons">
           <nuxt-link :to="`/waterplants/${waterplant.id}/`" class="btn btn-sm btn-success">

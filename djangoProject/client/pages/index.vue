@@ -10,13 +10,49 @@ export default {
 <template>
   <header>
     <div class="text-box">
-      <h1>自分で作る水草図鑑</h1>
+      <h1>ユニバーサルの明日</h1>
       <p class="mt-3">
-        自分が育てた水草を記録してみよう！
+      ユニバーサルの明日を調査しよう！
       </p>
       <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-        水草一覧
-        <span class="ml-2">→</span>
+        文法チェック
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        表情対応ロボット
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        音声比較
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        古漢語翻訳モデル
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        tableAU教室(日韓語)
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+       話せる人間(日韓語)
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        Life Line
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+       楽典(日韓語)
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        今日のユニバーサル
+       <!-- <span class="ml-2">→</span>-->
+      </nuxt-link>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        明日のユニバーサル
+       <!-- <span class="ml-2">→</span>-->
       </nuxt-link>
     </div>
   </header>
