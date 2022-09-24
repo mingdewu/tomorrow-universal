@@ -9,51 +9,40 @@ export default {
 </script>
 <template>
   <header>
-    <div class="text-box">
-      <h1>ユニバーサルの明日</h1>
-      <p class="mt-3">
-      ユニバーサルの明日を調査しよう！
-      </p>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+    <div>
+      <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_grammer_checker">
         文法チェック
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/emotion_classification">
         表情対応ロボット
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-        音声比較
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-        古漢語翻訳モデル
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/listenning_shadowing">
+        音声シャドーイング
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_classicalchinese_model">
+        古漢語-日本語モデル
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tableau">
         tableAU教室(日韓語)
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-       話せる人間(日韓語)
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/first_language">
+        人間の第一言語(日韓語)
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/life_line">
         Life Line
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-       楽典(日韓語)
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-        今日のユニバーサル
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/waterplants">
-        明日のユニバーサル
-       <!-- <span class="ml-2">→</span>-->
-      </nuxt-link>
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/classical_music_theory">
+        楽典(日韓語)
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/world_data">
+        世界データ収集
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tomorrow_predict">
+          世界の明日
+        </nuxt-link>
+      </div>
+    <div class="text-box">
+      <h1>世界の明日</h1>
     </div>
   </header>
 </template>
@@ -78,6 +67,7 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
+  margin: auto;
 }
 .text-box {
   position: absolute;
