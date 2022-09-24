@@ -8,6 +8,7 @@ export default {
 }
 </script>
 <template>
+
   <header>
     <div>
       <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_grammer_checker">
@@ -39,6 +40,9 @@ export default {
         </nuxt-link>
         <nuxt-link class="btn btn-outline btn-large btn-info" to="/tomorrow_predict">
           世界の明日
+        </nuxt-link>
+        <nuxt-link class="btn btn-outline btn-large btn-info" to="waterplants">
+          水物
         </nuxt-link>
       </div>
     <div class="text-box">
