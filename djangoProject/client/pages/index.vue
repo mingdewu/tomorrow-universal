@@ -1,53 +1,40 @@
-<template>
-  <Tutorial />
-</template>
-
 <script>
 export default {
   name: 'IndexPage'
 }
 </script>
 <template>
-
   <header>
-    <div>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_grammer_checker">
-        文法チェック
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/emotion_classification">
-        表情対応ロボット
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/listenning_shadowing">
-        音声シャドーイング
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_classicalchinese_model">
-        古漢語-日本語モデル
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tableau">
-        tableAU教室(日韓語)
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/first_language">
-        人間の第一言語(日韓語)
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/life_line">
-        Life Line
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/classical_music_theory">
-        楽典(日韓語)
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/world_data">
-        世界データ収集
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tomorrow_predict">
-          世界の明日
-        </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="waterplants">
-          水物
-        </nuxt-link>
-      </div>
-    <div class="text-box">
-      <h1>世界の明日</h1>
-    </div>
+      <nuxt-link class="" to="/japanese_grammer_checker">
+      文法チェック
+      </nuxt-link>
+      <nuxt-link class="" to="/emotion_classification">
+      表情対応ロボット
+      </nuxt-link>
+      <nuxt-link class="" to="/listenning_shadowing">
+      音声シャドーイング
+      </nuxt-link>
+      <nuxt-link class="" to="/japanese_classicalchinese_model">
+      古漢語-日本語モデル
+      </nuxt-link>
+      <nuxt-link class="" to="/tableau">
+      tableAU教室(日韓語)
+      </nuxt-link>
+      <nuxt-link class="" to="/first_language">
+      人間の第一言語(日韓語)
+      </nuxt-link>
+      <nuxt-link class="" to="/life_line">
+      Life Line
+      </nuxt-link>
+      <nuxt-link class="" to="/classical_music_theory">
+      楽典(日韓語)
+      </nuxt-link>
+      <nuxt-link class="" to="/world_data">
+      世界データ収集/予測
+      </nuxt-link>
+      <nuxt-link class="" to="waterplants">
+        水物
+      </nuxt-link>
   </header>
 </template>
 <script>
@@ -67,7 +54,7 @@ header {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/images/banner.jpg");
+    url("/images/b.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -87,5 +74,8 @@ header {
 .text-box p {
   font-size: 2rem;
   font-weight: lighter;
+}
+.div {
+  font-size:30px;
 }
 </style>
