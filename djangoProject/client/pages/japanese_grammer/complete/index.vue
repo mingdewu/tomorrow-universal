@@ -15,7 +15,10 @@
         </div>
       <button>進もう</button>
       <br />
-      <h1>結果：</h1>
-      <a>研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。</a>
+      <div class="input-group">
+        <span class="input-group-text">正しいかも</span>
+        <textarea class="form-control" aria-label="With textarea">研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。</textarea>
+      </div>
+    </div>
     </div>
 </template>
