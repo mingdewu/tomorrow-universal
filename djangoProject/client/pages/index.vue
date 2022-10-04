@@ -11,37 +11,37 @@ export default {
 
   <header>
     <div>
-      <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_grammer_checker">
+      <nuxt-link class="text-decoration-underline" to="/japanese_grammer_checker">
         文法チェック
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/emotion_classification">
+        <nuxt-link class="text-decoration-underline" to="/emotion_classification">
         表情対応ロボット
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/listenning_shadowing">
+        <nuxt-link class="text-decoration-underline" to="/listenning_shadowing">
         音声シャドーイング
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/japanese_classicalchinese_model">
+        <nuxt-link class="text-decoration-underline" to="/japanese_classicalchinese_model">
         古漢語-日本語モデル
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tableau">
+        <nuxt-link class="text-decoration-underline" to="/tableau">
         tableAU教室(日韓語)
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/first_language">
+        <nuxt-link class="text-decoration-underline" to="/first_language">
         人間の第一言語(日韓語)
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/life_line">
+        <nuxt-link class="text-decoration-underline" to="/life_line">
         Life Line
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/classical_music_theory">
+        <nuxt-link class="text-decoration-underline" to="/classical_music_theory">
         楽典(日韓語)
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/world_data">
+        <nuxt-link class="text-decoration-underline" to="/world_data">
         世界データ収集
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="/tomorrow_predict">
+        <nuxt-link class="text-decoration-underline" to="/tomorrow_predict">
           世界の明日
         </nuxt-link>
-        <nuxt-link class="btn btn-outline btn-large btn-info" to="waterplants">
+        <nuxt-link class="text-decoration-underline" to="waterplants">
           水物
         </nuxt-link>
       </div>
