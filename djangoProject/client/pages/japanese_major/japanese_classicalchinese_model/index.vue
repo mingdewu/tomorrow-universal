@@ -1,6 +1,5 @@
 <template>
     <div>
-      <h1>japanese_classicalchinese_model</h1>
+      <h1>japanese_classicalchinese_model開発中</h1>
     </div>
   </template>
-  

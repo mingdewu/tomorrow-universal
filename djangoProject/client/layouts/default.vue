@@ -16,6 +16,16 @@
         <nuxt-link class="" to="/waterplants">
           /水物
         </nuxt-link>
+        <div class="dropdown right-btn">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            言語
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">链接 1</a></li>
+            <li><a class="dropdown-item" href="#">链接 2</a></li>
+            <li><a class="dropdown-item" href="#">链接 3</a></li>
+          </ul>
+        </div>
       </header>
       <nuxt />
   </div>
@@ -43,6 +53,10 @@ export default {
     margin: auto;
     font-size:30px;
     text-align:center;
+  }
+  .right-btn{
+    float:right;
+    margin-right:5px;
   }
   .text-box {
     position: absolute;
