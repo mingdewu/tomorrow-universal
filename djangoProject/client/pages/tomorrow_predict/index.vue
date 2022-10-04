@@ -1,6 +1,5 @@
 <template>
     <div>
-      <h1>tomorrow_predict</h1>
+      <h1>「あしたのデータ収集/予測」開発中</h1>
     </div>
   </template>
-  

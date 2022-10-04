@@ -1,93 +1,70 @@
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
-
-<<<<<<< HEAD
-  <header>
+<template>
     <div>
-      <nuxt-link class="text-decoration-underline" to="/japanese_grammer_checker">
-        文法チェック
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/emotion_classification">
-        表情対応ロボット
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/listenning_shadowing">
-        音声シャドーイング
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/japanese_classicalchinese_model">
-        古漢語-日本語モデル
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/tableau">
-        tableAU教室(日韓語)
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/first_language">
-        人間の第一言語(日韓語)
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/life_line">
-        Life Line
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/classical_music_theory">
-        楽典(日韓語)
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/world_data">
-        世界データ収集
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="/tomorrow_predict">
-          世界の明日
-        </nuxt-link>
-        <nuxt-link class="text-decoration-underline" to="waterplants">
-          水物
-        </nuxt-link>
-      </div>
-    <div class="text-box">
-      <h1>世界の明日</h1>
+      <h1>呉 明徳 の ホームページ</h1>
     </div>
-  </header>
-</template>
-<script>
-export default {
-  head () {
-    return {
-      title: 'Home page'
+  </template>
+  <style scoped>
+    :root {
+      --primary-color: #00c58e;
     }
+    header {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("/images/3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    font-size:20px;
   }
-}
-</script>
-=======
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      margin: 0;
+    }
 
->>>>>>> 6e7390f6b2dc6b38b9e010f730e9739a6ce984ce
-<style>
-header {
-  min-height: 100vh;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("/images/ban2ner.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  margin: auto;
-}
-.text-box {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  color: #fff;
-}
-.text-box h1 {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: 5rem;
-}
-.text-box p {
-  font-size: 2rem;
-  font-weight: lighter;
-}
-.div nuxt-link{
-  font-size:large;
-}
-</style>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    nav a{
+      margin:30px;
+      font-size: 26px;
+      text-decoration: underline;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin: 0 auto;
+      margin-top: 100px;
+      padding: 0 1rem;
+      max-width: 1280px;
+      text-align: center;
+    }
+    img {
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    li {
+      margin: 0 0.5rem;
+      padding: 0.25rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      padding: 0 1rem;
+    }
+    a.nuxt-link-exact-active {
+      color: #00c58e;
+    }
+    </style>
