@@ -19,5 +19,6 @@ module.exports = {
     "eol-last": 0,
     'vue/multi-word-component-names': 0,
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "vue/no-multiple-template-root":'off' 
   }
 }

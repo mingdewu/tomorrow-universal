@@ -1,14 +1,10 @@
-<template>
-  <Tutorial />
-</template>
-
 <script>
 export default {
   name: 'IndexPage'
 }
 </script>
-<template>
 
+<<<<<<< HEAD
   <header>
     <div>
       <nuxt-link class="text-decoration-underline" to="/japanese_grammer_checker">
@@ -59,6 +55,9 @@ export default {
   }
 }
 </script>
+=======
+
+>>>>>>> 6e7390f6b2dc6b38b9e010f730e9739a6ce984ce
 <style>
 header {
   min-height: 100vh;
@@ -67,7 +66,7 @@ header {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/images/banner.jpg");
+    url("/images/ban2ner.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -87,5 +86,8 @@ header {
 .text-box p {
   font-size: 2rem;
   font-weight: lighter;
+}
+.div nuxt-link{
+  font-size:large;
 }
 </style>
