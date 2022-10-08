@@ -13,9 +13,6 @@
         <nuxt-link class="" to="/tomorrow_predict">
         /世界データ収集予測
         </nuxt-link>
-        <nuxt-link class="" to="/waterplants">
-          /水物
-        </nuxt-link>
         <nuxt-link class="" to="/recipes">
           /レシピ
         </nuxt-link>
