@@ -1,5 +1,6 @@
 <template>
-    <div class="card recipe-card">
+    <!--
+<div class="card recipe-card">
         <img :src="recipe.picture" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">{{recipe.name}}</h5>
@@ -13,6 +14,17 @@
             </div>
         </div>
     </div>
+    -->
+    <div>
+        <el-card class="box-card">
+        <div slot="header" class="clearfix">
+            <span>卡片名称</span>
+        </div>
+        <div v-for="o in 4" :key="o" class="text item">
+            {{'列表内容 ' + o }}
+        </div>
+        </el-card>
+    </div>
 </template>
 <script>
 export default {
@@ -21,6 +33,6 @@ export default {
 </script>
 <style>
 .recipe-card{
-	box-shadow: 0 1rem 1.5rem rgba(0,0,0,.6)
+    box-shadow: 0 1rem 1.5rem rgba(0,0,0,.6)
 }
 </style>

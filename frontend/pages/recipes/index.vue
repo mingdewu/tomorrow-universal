@@ -1,5 +1,6 @@
 <template>
-    <main class="el-container">
+  <el-main>
+    <!--
     <div class="row">
       <div class="col-12 text-right mb-4">
         <div class="d-flex justify-content-between">
@@ -13,12 +14,20 @@
         </div>
       </div>
     </div>
-  </main>
+    -->
+    <span>La Recipes</span>
+      <nuxt-link to="/recipes/add" type="primary" class="rightside">Add Recipe</nuxt-link>
+    <el-row :gutter="20">
+      <el-col :span="6"><div class="grid-content bg-purple">a</div></el-col>
+      <el-col :span="6"><div class="grid-content bg-purple">b</div></el-col>
+      <el-col :span="6"><div class="grid-content bg-purple">c</div></el-col>
+      <el-col :span="6"><div class="grid-content bg-purple">d</div></el-col>
+    </el-row>
+  </el-main>
 </template>
 
 <script>
 import RecipeCard from "~/components/RecipeCard.vue";
-
 
 export default{
     head(){
@@ -56,4 +65,27 @@ export default{
 }
 </script>
 <style scoped>
+  .text {
+    font-size: 14px;
+  }
+
+  .item {
+    margin-bottom: 18px;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    width: 480px;
+  }
+  .rightside{
+    float: right;
+  }
 </style>
