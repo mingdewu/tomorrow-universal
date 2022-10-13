@@ -1,6 +1,6 @@
 <template>
     <div>
-      <a>作文azAZ</a>
+      <h1>埋め込み</h1>
       <span>モデル選択</span>
       <el-select v-model="value" placeholder="モデル選択">
         <el-option
@@ -15,20 +15,16 @@
         <el-tag type="success">こん感じ文章を入力！</el-tag>
       </div>
       <el-input
-      v-model="input"
-      placeholder="">
+        v-model="input1"
+        placeholder="">
       </el-input>  
-      <p></p>
-      <div class="input-group">
-        <span class="input-group-text">文章</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
-      </div>
-      <button>進もう</button>
+      <el-button type="primary">埋め込み</el-button>
       <br />
-      <div class="input-group">
-        <span class="input-group-text">正しいかも</span>
-        <textarea class="form-control" aria-label="With textarea">研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。</textarea>
-      </div>
+      <el-input
+        readonly
+        v-model="input2"
+        placeholder="">
+      </el-input>  
     </div>
 </template>
 
@@ -47,7 +43,8 @@ export default {
           label:"model3"
         }],
         value:'',
-        input:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に＿＿ことができます。'
+        input1:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に＿＿ことができます。',
+        input2:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。'
       }
     }
   }

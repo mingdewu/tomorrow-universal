@@ -1,32 +1,51 @@
 <template>
     <div>
-        <span>モデル選択</span>
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
+        <h1>作文</h1>
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">
-                朝日
-            </label>
+            <el-tag>語彙入力</el-tag>
+            <el-input v-model="input1" placeholder=""></el-input>
         </div>
-        <div class="input-group">
-        <span class="input-group-text">キーワード(一つずつ)</span>
-        <textarea class="form-control" aria-label="With textarea">朝日</textarea>
+        <div>
+            <el-tag>キーワード</el-tag>
+            <el-select v-model="value1" multiple placeholder="キーワード">
+                <el-option
+                v-for="item in givens"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value">
+                </el-option>
+            </el-select>
         </div>
-        <button>
-            もっとキーワード
-        </button>
+        
         <br />
-        <button>
-            作ろう
+        <button type="primary">
+            作文
         </button>
         <div class="input-group">
-        <span class="input-group-text">出来だ</span>
-        <textarea class="form-control" aria-label="With textarea">朝日を浴びて車に光が反射する。</textarea>
+            <el-input
+                placeholder=""
+                v-model="output1"
+                :disabled="true">
+                </el-input>
+      
     </div>
 </div>
-  </template>
+</template>
+<script>
+export default {
+    data(){
+        return{
+            givens:[{
+                value:'朝日',
+                label:'朝日'
+            }],
+            input1: '朝日',
+            output1:'朝日を浴びて車に光が反射する。'
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>
