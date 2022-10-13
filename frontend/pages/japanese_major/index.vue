@@ -13,13 +13,13 @@
 					</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink class="text-decoration-underline" to="/japanese_major/japanese_classicalchinese_model">
-						古漢語-日本語モデル
+					<NuxtLink class="text-decoration-underline" to="/japanese_major/listenning_shadowing">
+						ドラマシャドーイング
 					</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink class="text-decoration-underline" to="/japanese_major/listenning_shadowing">
-						ドラマシャドーイング
+					<NuxtLink class="text-decoration-underline" to="/japanese_major/japanese_classicalchinese_model">
+						古漢語-日本語モデル
 					</NuxtLink>
 				</li>
 			</ul>
