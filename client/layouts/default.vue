@@ -36,7 +36,7 @@ export default {
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.2)
       ),
-      url("/images/banner3.jpg");
+      url("/images/1011.jpg");
     background-position: center;
     background-size: cover;
     position: relative;

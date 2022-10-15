@@ -24,8 +24,7 @@ export default {
 <style scoped>
 .block{
   margin: auto;
-  width: 50%;
-  border: 3px solid rgb(0, 0, 0);
+  width: 40%;
   padding: 5px;
 }
 </style>

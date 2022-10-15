@@ -1,15 +1,20 @@
 <template>
-    <div>
-      <span>モデル選択</span>
-      <el-select v-model="value" placeholder="モデル選択">
-        <el-option
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-        >
-        </el-option>
-      </el-select>
+    <div style="margin:auto;width:50%">
+      <nav>
+      <ul>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/check">文法修正</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/write">作文</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/complete">埋め込み</NuxtLink>
+        </li>
+      </ul>
+    </nav>
+  <NuxtChild  />
+    <h1>文法修正</h1>
       <div class="input-group">
         <span class="input-group-text">日本語入力</span>
         <el-input
@@ -40,17 +45,6 @@
   export default {
     data() {
       return {
-        options:[{
-          value:"model1",
-          label:"model1"
-        },{
-          value:"model2",
-          label:"model2"
-        },{
-          value:"model3",
-          label:"model3"
-        }],
-        value:'',
         textarea1:"商品の存在価値を伝える、お客様の市場価値を高める役割を担います。",
         teztarea2:"商品の存在価値を伝え、お客様の市場価値を高める役割を担います。"
       }

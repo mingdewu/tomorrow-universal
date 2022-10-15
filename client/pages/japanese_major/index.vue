@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div >
 		<nav>
 			<ul>
 				<li>

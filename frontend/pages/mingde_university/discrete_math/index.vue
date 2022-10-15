@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>準備中</h1>
+  <div style="margin:auto;width:70%">
+    <h2>離散数学（準備中）</h2>
     <div>
       <el-tree :data="data" :props="defaultProps" @node-click="handleNodeClink"></el-tree>
     </div>
@@ -11,7 +11,7 @@ export default {
   data () {
     return {
       data: [{
-        label: '集合',
+        label: '１、集合',
         children: [{
           label: '集合定義と演算',
           children: [{
@@ -22,42 +22,100 @@ export default {
           label: '写像とその合成'
         },
         {
-          label: '代数系'
+          label: '代数系',
+          children:[{
+            label:'半群・群',
+           
+          },
+          {label:'環・体'},]
         }
         ]
       }, {
-        label: '命題倫理と述語倫理',
+        label: '２、命題倫理と述語倫理',
         children: [{
           label: '複合命題',
           children: [{
             label: '命題計算'
           }]
-        }, {
+        }, 
+        {
           label: '含意と推論',
-          children: [{
-            label: '三级 2-2-1'
-          }]
         },
         {
           label: '述語倫理',
-          children: [{
-            label: '三级 2-2-1'
-          }]
+        }]
+      }, 
+      {
+        label: '３、ブール代数',
+        children: [{
+          label: 'ブール代数定義',
+        }, {
+          label: 'ブール論理式',
         }]
       }, {
-        label: '一级 3',
+        label: '４、行列と行列式',
         children: [{
-          label: '二级 3-1',
-          children: [{
-            label: '三级 3-1-1'
-          }]
+          label: '行列',
         }, {
-          label: '二级 3-2',
-          children: [{
-            label: '三级 3-2-1'
-          }]
+          label: '行列式',
+        },
+        {
+          label: '行列式の性質',
+        },
+        {
+          label: '余因子行列と逆行列',
+        },
+        {
+          label: '連立一次方程式',
+        },
+      ]
+      },
+      {
+        label: '５、関係',
+        children: [{
+          label: '二項関係',
+        }, 
+        {
+          label: '同値関係',
+        },
+        {
+          label: '順序関係と束',
         }]
-      }],
+      },
+      {
+        label: '６、グラフ理論',
+        children: [{
+          label: '基礎概念',
+        }, 
+        {
+          label: '名前のついたグラフ',
+        },
+        {
+          label: '用いたグラフ表現',
+        },
+        {
+          label: '平面グラフと非平面グラフ',
+        },
+        {
+          label: '木，根付き木，順序根付き木',
+        }]
+      },
+      {
+        label: '７、組合せ解析',
+        children: [{
+          label: '場合の数',
+        }, 
+        {
+          label: '順列',
+        },
+        {
+          label: '組合せ',
+        },
+        {
+          label: '多項定理',
+        }]
+      },
+    ],
       defaultProps: {
         children: 'children',
         label: 'label'

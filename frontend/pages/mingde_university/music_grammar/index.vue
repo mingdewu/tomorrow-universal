@@ -1,5 +1,5 @@
 <template>
-  <div id="music_grammarapp">
+  <div  style="margin:auto;width:70%">
     <h2>「楽典」準備中</h2>
     <div id="app-7">
       <ol>

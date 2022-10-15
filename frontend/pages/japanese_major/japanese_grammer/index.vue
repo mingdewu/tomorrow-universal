@@ -1,18 +1,18 @@
 <template>
   <div>
     <nav>
-    <ul>
-      <li>
-        <NuxtLink to="/japanese_major/japanese_grammer/check">文法修正</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/japanese_major/japanese_grammer/write">作文</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/japanese_major/japanese_grammer/complete">埋め込み</NuxtLink>
-      </li>
-    </ul>
-  </nav>
+      <ul>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/check">文法修正</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/write">作文</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/japanese_major/japanese_grammer/complete">埋め込み</NuxtLink>
+        </li>
+      </ul>
+    </nav>
   <NuxtChild  />
   </div>
 </template>
