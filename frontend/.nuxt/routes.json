@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/japanese_major",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major.vue",
+    "chunkName": "pages/japanese_major",
+    "children": [
+      {
+        "name": "japanese_major",
+        "path": "",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\index.vue",
+        "chunkName": "pages/japanese_major/index"
+      },
+      {
+        "name": "japanese_major-emotion_classification",
+        "path": "emotion_classification",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\emotion_classification\\\\index.vue",
+        "chunkName": "pages/japanese_major/emotion_classification/index"
+      },
+      {
+        "name": "japanese_major-japanese_classicalchinese_model",
+        "path": "japanese_classicalchinese_model",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_classicalchinese_model\\\\index.vue",
+        "chunkName": "pages/japanese_major/japanese_classicalchinese_model/index"
+      },
+      {
+        "name": "japanese_major-japanese_grammer",
+        "path": "japanese_grammer",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\index.vue",
+        "chunkName": "pages/japanese_major/japanese_grammer/index"
+      },
+      {
+        "name": "japanese_major-listenning_shadowing",
+        "path": "listenning_shadowing",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\listenning_shadowing\\\\index.vue",
+        "chunkName": "pages/japanese_major/listenning_shadowing/index"
+      },
+      {
+        "name": "japanese_major-japanese_grammer-check",
+        "path": "japanese_grammer/check",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\check\\\\index.vue",
+        "chunkName": "pages/japanese_major/japanese_grammer/check/index"
+      },
+      {
+        "name": "japanese_major-japanese_grammer-complete",
+        "path": "japanese_grammer/complete",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\complete\\\\index.vue",
+        "chunkName": "pages/japanese_major/japanese_grammer/complete/index"
+      },
+      {
+        "name": "japanese_major-japanese_grammer-write",
+        "path": "japanese_grammer/write",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\write\\\\index.vue",
+        "chunkName": "pages/japanese_major/japanese_grammer/write/index"
+      }
+    ]
+  },
+  {
+    "name": "life_line",
+    "path": "/life_line",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\life_line\\\\index.vue",
+    "chunkName": "pages/life_line/index"
+  },
+  {
+    "path": "/mingde_university",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university.vue",
+    "chunkName": "pages/mingde_university",
+    "children": [
+      {
+        "name": "mingde_university",
+        "path": "",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\index.vue",
+        "chunkName": "pages/mingde_university/index"
+      },
+      {
+        "name": "mingde_university-discrete_math",
+        "path": "discrete_math",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\discrete_math\\\\index.vue",
+        "chunkName": "pages/mingde_university/discrete_math/index"
+      },
+      {
+        "name": "mingde_university-first_language",
+        "path": "first_language",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\first_language\\\\index.vue",
+        "chunkName": "pages/mingde_university/first_language/index"
+      },
+      {
+        "name": "mingde_university-music_grammar",
+        "path": "music_grammar",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\music_grammar\\\\index.vue",
+        "chunkName": "pages/mingde_university/music_grammar/index"
+      },
+      {
+        "name": "mingde_university-tableau",
+        "path": "tableau",
+        "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\tableau\\\\index.vue",
+        "chunkName": "pages/mingde_university/tableau/index"
+      }
+    ]
+  },
+  {
+    "name": "recipes",
+    "path": "/recipes",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\index.vue",
+    "chunkName": "pages/recipes/index"
+  },
+  {
+    "name": "tomorrow_predict",
+    "path": "/tomorrow_predict",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\tomorrow_predict\\\\index.vue",
+    "chunkName": "pages/tomorrow_predict/index"
+  },
+  {
+    "name": "world_data",
+    "path": "/world_data",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\world_data\\\\index.vue",
+    "chunkName": "pages/world_data/index"
+  },
+  {
+    "name": "recipes-add",
+    "path": "/recipes/add",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\add.vue",
+    "chunkName": "pages/recipes/add"
+  },
+  {
+    "name": "recipes-id",
+    "path": "/recipes/:id",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\_id\\\\index.vue",
+    "chunkName": "pages/recipes/_id/index"
+  },
+  {
+    "name": "recipes-id-edit",
+    "path": "/recipes/:id/edit",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\_id\\\\edit.vue",
+    "chunkName": "pages/recipes/_id/edit"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
