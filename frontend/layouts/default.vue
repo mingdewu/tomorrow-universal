@@ -14,7 +14,7 @@
         /世界データ収集予測
         </nuxt-link>
         <nuxt-link class="" to="/recipes">
-          /レシピ
+          /食物
         </nuxt-link>
       </el-header>
       <nuxt />
