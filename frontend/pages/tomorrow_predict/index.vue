@@ -58,7 +58,7 @@ import WorldCard from "~/components/WorldCard.vue";
 export default {
   head(){
         return {
-            title:"Recipes list"
+            title:"Country list"
         };
     },
     components:{
@@ -67,36 +67,36 @@ export default {
   data () {
     return {
       options: [{
-        value: 'contry1',
-        label: '国1'
+        value: 'Japan',
+        label: '日本'
       }, {
-        value: 'contry2',
-        label: '国2'
+        value: 'Indian',
+        label: 'インド'
       }, {
-        value: 'contry3',
-        label: '国3'
+        value: 'Germany',
+        label: 'ドイツ'
       }, {
-        value: 'contry4',
-        label: '国4'
+        value: 'Canada',
+        label: 'カナダ'
       }, {
-        value: 'contry5',
-        label: '国5'
+        value: 'Russia',
+        label: 'ロシア'
       }],
       options2: [{
-        value: 'param1',
-        label: 'パラメータ1'
+        value: 'GDPGrowthRate',
+        label: 'GDPGrowthRate'
       }, {
-        value: 'param2',
-        label: 'パラメータ2'
+        value: 'FoodInflation',
+        label: 'FoodInflation'
       }, {
-        value: 'param3',
-        label: 'パラメータ3'
+        value: 'CPICore',
+        label: 'CPICore'
       }, {
-        value: 'param4',
-        label: 'パラメータ4'
+        value: 'ExportPrices',
+        label: 'ExportPrices'
       }, {
-        value: 'param5',
-        label: 'パラメータ5'
+        value: 'MinimumWages',
+        label: 'MinimumWages'
       }],
       value1: '',
       value2: ''

@@ -8,57 +8,67 @@
         "name": "japanese_major",
         "path": "",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\index.vue",
-        "chunkName": "pages/japanese_major/index"
+        "chunkName": "pages/japanese_major/index",
+        "_name": "_2c19dcba"
       },
       {
         "name": "japanese_major-emotion_classification",
         "path": "emotion_classification",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\emotion_classification\\\\index.vue",
-        "chunkName": "pages/japanese_major/emotion_classification/index"
+        "chunkName": "pages/japanese_major/emotion_classification/index",
+        "_name": "_5ef23eb0"
       },
       {
         "name": "japanese_major-japanese_classicalchinese_model",
         "path": "japanese_classicalchinese_model",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_classicalchinese_model\\\\index.vue",
-        "chunkName": "pages/japanese_major/japanese_classicalchinese_model/index"
+        "chunkName": "pages/japanese_major/japanese_classicalchinese_model/index",
+        "_name": "_aae495dc"
       },
       {
         "name": "japanese_major-japanese_grammer",
         "path": "japanese_grammer",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\index.vue",
-        "chunkName": "pages/japanese_major/japanese_grammer/index"
+        "chunkName": "pages/japanese_major/japanese_grammer/index",
+        "_name": "_0fb5e085"
       },
       {
         "name": "japanese_major-listenning_shadowing",
         "path": "listenning_shadowing",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\listenning_shadowing\\\\index.vue",
-        "chunkName": "pages/japanese_major/listenning_shadowing/index"
+        "chunkName": "pages/japanese_major/listenning_shadowing/index",
+        "_name": "_c957d008"
       },
       {
         "name": "japanese_major-japanese_grammer-check",
         "path": "japanese_grammer/check",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\check\\\\index.vue",
-        "chunkName": "pages/japanese_major/japanese_grammer/check/index"
+        "chunkName": "pages/japanese_major/japanese_grammer/check/index",
+        "_name": "_087f6a67"
       },
       {
         "name": "japanese_major-japanese_grammer-complete",
         "path": "japanese_grammer/complete",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\complete\\\\index.vue",
-        "chunkName": "pages/japanese_major/japanese_grammer/complete/index"
+        "chunkName": "pages/japanese_major/japanese_grammer/complete/index",
+        "_name": "_0e37bf28"
       },
       {
         "name": "japanese_major-japanese_grammer-write",
         "path": "japanese_grammer/write",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\japanese_major\\\\japanese_grammer\\\\write\\\\index.vue",
-        "chunkName": "pages/japanese_major/japanese_grammer/write/index"
+        "chunkName": "pages/japanese_major/japanese_grammer/write/index",
+        "_name": "_5a779b30"
       }
-    ]
+    ],
+    "_name": "_b84e7270"
   },
   {
     "name": "life_line",
     "path": "/life_line",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\life_line\\\\index.vue",
-    "chunkName": "pages/life_line/index"
+    "chunkName": "pages/life_line/index",
+    "_name": "_9b50f010"
   },
   {
     "path": "/mingde_university",
@@ -69,74 +79,87 @@
         "name": "mingde_university",
         "path": "",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\index.vue",
-        "chunkName": "pages/mingde_university/index"
+        "chunkName": "pages/mingde_university/index",
+        "_name": "_bd68b910"
       },
       {
         "name": "mingde_university-discrete_math",
         "path": "discrete_math",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\discrete_math\\\\index.vue",
-        "chunkName": "pages/mingde_university/discrete_math/index"
+        "chunkName": "pages/mingde_university/discrete_math/index",
+        "_name": "_51a326ce"
       },
       {
         "name": "mingde_university-first_language",
         "path": "first_language",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\first_language\\\\index.vue",
-        "chunkName": "pages/mingde_university/first_language/index"
+        "chunkName": "pages/mingde_university/first_language/index",
+        "_name": "_a3338cde"
       },
       {
         "name": "mingde_university-music_grammar",
         "path": "music_grammar",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\music_grammar\\\\index.vue",
-        "chunkName": "pages/mingde_university/music_grammar/index"
+        "chunkName": "pages/mingde_university/music_grammar/index",
+        "_name": "_c1cf9322"
       },
       {
         "name": "mingde_university-tableau",
         "path": "tableau",
         "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\mingde_university\\\\tableau\\\\index.vue",
-        "chunkName": "pages/mingde_university/tableau/index"
+        "chunkName": "pages/mingde_university/tableau/index",
+        "_name": "_5bdec3da"
       }
-    ]
+    ],
+    "_name": "_098c0c6c"
   },
   {
     "name": "recipes",
     "path": "/recipes",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\index.vue",
-    "chunkName": "pages/recipes/index"
+    "chunkName": "pages/recipes/index",
+    "_name": "_90d8d9ac"
   },
   {
     "name": "tomorrow_predict",
     "path": "/tomorrow_predict",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\tomorrow_predict\\\\index.vue",
-    "chunkName": "pages/tomorrow_predict/index"
+    "chunkName": "pages/tomorrow_predict/index",
+    "_name": "_1c9e88f4"
   },
   {
     "name": "world_data",
     "path": "/world_data",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\world_data\\\\index.vue",
-    "chunkName": "pages/world_data/index"
+    "chunkName": "pages/world_data/index",
+    "_name": "_0acdca2e"
   },
   {
     "name": "recipes-add",
     "path": "/recipes/add",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\add.vue",
-    "chunkName": "pages/recipes/add"
+    "chunkName": "pages/recipes/add",
+    "_name": "_00b6d90e"
   },
   {
     "name": "recipes-id",
     "path": "/recipes/:id",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\_id\\\\index.vue",
-    "chunkName": "pages/recipes/_id/index"
+    "chunkName": "pages/recipes/_id/index",
+    "_name": "_2d342430"
   },
   {
     "name": "recipes-id-edit",
     "path": "/recipes/:id/edit",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\recipes\\\\_id\\\\edit.vue",
-    "chunkName": "pages/recipes/_id/edit"
+    "chunkName": "pages/recipes/_id/edit",
+    "_name": "_0fdab91c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\USER\\\\Documents\\\\GitHub\\\\djangonuxtcsdn\\\\frontend\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_66c106c5"
   }
 ]

@@ -29,7 +29,6 @@
       <h5>商品の存在価値を伝え<a>る</a>、お客様の市場価値を高める役割を担います。</h5>
       <el-button type="primary">チェック</el-button>
       <div class="input-group">
-        <span class="input-group-text">正しい一</span>
         <el-input
         type="text"
         :row="5"

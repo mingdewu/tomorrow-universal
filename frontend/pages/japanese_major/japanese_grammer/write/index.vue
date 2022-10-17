@@ -32,9 +32,9 @@
         </div>
         
         <br />
-        <button type="primary">
+        <el-button type="primary">
             作文
-        </button>
+        </el-button>
         <div class="input-group">
             <el-input
                 placeholder=""
