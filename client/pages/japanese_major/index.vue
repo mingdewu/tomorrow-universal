@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div >
 		<nav>
 			<ul>
 				<li>
@@ -19,7 +19,7 @@
 				</li>
 				<li>
 					<NuxtLink class="text-decoration-underline" to="/japanese_major/listenning_shadowing">
-						音声シャドーイング
+						ドラマシャドーイング
 					</NuxtLink>
 				</li>
 			</ul>

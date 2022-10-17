@@ -9,7 +9,7 @@
             <div class ="action-buttons">
                 <nuxt-link :to="`/recipes/${recipe.id}/`" class="btn btn-sm btn-success">View</nuxt-link>
                 <nuxt-link :to="`/recipes/${recipe.id}/edit/`" class="btn btn-sm btn-primary">Edit</nuxt-link>
-                <button @client="onDelete(recipe.id)" class="btn btn-sm btn-danger">Delete</button>
+                <button @click="onDelete(recipe.id)" class="btn btn-sm btn-danger">Delete</button>
             </div>
         </div>
     </div>

@@ -7,11 +7,11 @@
           <nuxt-link to="/recipes/add" class="btn btn-info">Add Recipe</nuxt-link>
         </div>
       </div>
-      <template v-for="recipe in recipes">
+      <div v-for="recipe in recipes">
         <div :key="recipe.id" class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <recipe-card :onDelete="deleteRecipe" :recipe="recipe"></recipe-card>
         </div>
-      </template>
+      </div>
     </div>
   </main>
 </template>
@@ -46,7 +46,7 @@ export default{
    async deleteRecipe(recipe_id){
 		try{
 			await this.$axios.$delete(`/recipes/${recipe_id}/`);
-			let newRecipes = await this.$axios.$get("/recipoes/");
+			let newRecipes = await this.$axios.$get("/recipes/");
 			this.recipes = newRecipes;
 		}	catch(e){
 			console.log(e);

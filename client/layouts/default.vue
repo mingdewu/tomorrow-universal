@@ -13,9 +13,6 @@
         <nuxt-link class="" to="/tomorrow_predict">
         /世界データ収集予測
         </nuxt-link>
-        <nuxt-link class="" to="/waterplants">
-          /水物
-        </nuxt-link>
         <nuxt-link class="" to="/recipes">
           /レシピ
         </nuxt-link>
@@ -39,7 +36,7 @@ export default {
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.2)
       ),
-      url("/images/banner3.jpg");
+      url("/images/1011.jpg");
     background-position: center;
     background-size: cover;
     position: relative;

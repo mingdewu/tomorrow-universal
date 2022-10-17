@@ -13,7 +13,7 @@
 					</NuxtLink>
 				</li>
 				<li>
-					<NuxtLink class="text-decoration-underline" to="/mingde_university/classical_music_theory">
+					<NuxtLink class="text-decoration-underline" to="/mingde_university/music_grammar">
 						楽典(日韓語)
 					</NuxtLink>
 				</li>

@@ -2,7 +2,9 @@
     <main class="container my-5">
         <div class="row">
             <div class="col-12 text-center my-3">
-                <h2 class="mb-3 display-4 text-uppercase">{{recipe.name}}</h2>
+                <h2 class="mb-3 display-4 text-uppercase">
+                    {{recipe.name}}
+                </h2>
             </div>
             <div class="col-md-6 mb-4">
                 <img v-if="!preview" class="img-fluid" style="width: 400px; border-radius: 10px; box-shadow: 0 1rem 1rem rgba(0,0,0,.7);"  :src="recipe.picture">
@@ -16,7 +18,7 @@
                     </div>
                     <div class="form-group">
                         <label for >原料</label>
-                        <input type="text" v-model="recipe.ingredients" class="form-control" name="Ingredients"> 
+                        <input type="text" v-model="recipe.ingredients" class="form-control" name="Ingredients">
                     </div>
                     <div class="form-group">
                         <label for>Food picture</label>
@@ -45,7 +47,8 @@
                     </div>
                     <div class="form-group mb-3">
                         <label for>レシピ</label>
-                        <textarea v-model="recipe.prep_guide" class="form-control" rows="8"></textarea>
+                        <textarea v-model="recipe.prep_guide" class="form-control" rows="8">
+                        </textarea>
                     </div>
                     <button type="submit" class="btn btn-success">保存</button>
                 </form>
@@ -54,15 +57,15 @@
     </main>
 </template>
 <script>
-export default{
-    head(){
+export default {
+    head () {
         return {
-            title:"編集"
+            title: "編集"
         }
     },
-    async asyncData({ $axios,params}){
+    async asyncData ({ $axios, params }) {
         try {
-            let recipe = await $axios.$get(`/recipes/${params.id}`);
+            const recipe = await $axios.$get(`/recipes/${params.id}`)
             return{recipe};
         } catch(e){
             return{
