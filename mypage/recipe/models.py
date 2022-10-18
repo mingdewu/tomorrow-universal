@@ -1,7 +1,6 @@
 from django.db import models
 
 # Create your models here.
-from django.db import models
 class Recipe(models.Model):
     DIFFICULTY_LEVELS = (
         ('Easy', 'Easy'),

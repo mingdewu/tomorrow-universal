@@ -1,29 +1,17 @@
 <template>
-  <el-main>
-    <!--
-    <div class="row">
-      <div class="col-12 text-right mb-4">
-        <div class="d-flex justify-content-between">
-          <h3>La Recipes</h3>
-          <nuxt-link to="/recipes/add" class="btn btn-info">Add Recipe</nuxt-link>
-        </div>
-      </div>
-      <div v-for="recipe in recipes">
-        <div :key="recipe.id" class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <recipe-card :onDelete="deleteRecipe" :recipe="recipe"></recipe-card>
-        </div>
+  <div>
+    <div>
+      <div style="text-align:right; font-size:14px">
+        <h3>レシピ</h3>
+        <nuxt-link to="/recipes/add">レシピ追加</nuxt-link>
       </div>
     </div>
-    -->
-    <span>La Recipes</span>
-      <nuxt-link to="/recipes/add" type="primary" class="rightside">Add Recipe</nuxt-link>
-    <el-row :gutter="20">
-      <el-col :span="6"><div class="grid-content bg-purple">a</div></el-col>
-      <el-col :span="6"><div class="grid-content bg-purple">b</div></el-col>
-      <el-col :span="6"><div class="grid-content bg-purple">c</div></el-col>
-      <el-col :span="6"><div class="grid-content bg-purple">d</div></el-col>
-    </el-row>
-  </el-main>
+    <div v-for="recipe in recipes">
+      <div :key="recipe.id">
+        <recipe-card :onDelete="deleteRecipe" :recipe="recipe"></recipe-card>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

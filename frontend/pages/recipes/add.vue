@@ -1,10 +1,10 @@
 <template>
-    <main class="container my-5">
+    <el-main >
       <div class="row">
         <div class="col-12 text-center my-3">
           <h2 class="mb-3 display-4 text-uppercase">{{ recipe.name }}</h2>
         </div>
-        <div class="col-md-6 mb-4">
+        <div >
           <img
             v-if="preview"
             class="img-fluid"
@@ -19,7 +19,7 @@
             src="@/static/images/banner.jpg"
           >
         </div>
-        <div class="col-md-4">
+        <div>
           <form @submit.prevent="submitRecipe">
             <div class="form-group">
               <label for>Recipe Name</label>
@@ -62,7 +62,7 @@
           </form>
         </div>
       </div>
-    </main>
+    </el-main>
   </template>
   <script>
   export default {

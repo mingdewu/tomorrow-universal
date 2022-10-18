@@ -1,10 +1,10 @@
 <template>
-    <main class="container my-5">
-        <div class="row">
-            <div class="col-12 text-center my-3">
-                <h2 class="mb-3 display-4 text-uppercase">{{recipe.name}}</h2>
+    <main >
+        <div >
+            <div >
+                <h2 >{{recipe.name}}</h2>
             </div>
-            <div class="col-md-6 mb-4">
+            <div >
                 <img
                 class="img-fluid"
                 style="width:400px; border-radius: 10px; box-shadow: 0 1rem 1rem rgba(0,0,0,.7);"
@@ -12,7 +12,7 @@
                 alt
                 >
             </div>
-            <div class="col-md-6">
+            <div>
                 <div class="recipe-details">
                     <h4>Ingredients</h4>
                     <p>{{ recipe.ingredients }}</p>
@@ -21,7 +21,7 @@
                     <h4>Difficulty</h4>
                     <p>{{ recipe.difficulty }}</p>
                     <h4>Preparation guide</h4>
-                    <textarea class="form-control" rows="10" v-html="recipe.prep_guide" disabled />
+                    <textarea rows="10" v-html="recipe.prep_guide" disabled />
                 </div>
             </div>
         </div>
