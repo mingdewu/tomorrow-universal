@@ -3,53 +3,52 @@
     <h1>「あしたのデータ収集/予測」開発中</h1>
     <el-aside class="paramstyle">
       <div>
-      <div>
-        <el-tag>パラメータ</el-tag>
-      </div>
-      <el-select
-        v-model="value1"
-        multiple
-        filterable
-        allow-create
-        default-first-option
-        :reserve-keyword="false"
-        placeholder="国を選択"
-      >
-      <el-option
-        v-for="item in options"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      />
-      </el-select>
-      </div>
-      <div>
         <div>
           <el-tag>パラメータ</el-tag>
         </div>
         <el-select
-        v-model="value2"
-        multiple
-        filterable
-        allow-create
-        default-first-option
-        :reserve-keyword="false"
-        placeholder="パラメータを選択"
-      >
-      <el-option
-        v-for="item in options2"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      />
-      </el-select>
-      </div>
-    </el-aside>
+          v-model="value1"
+          multiple
+          filterable
+          allow-create
+          default-first-option
+          :reserve-keyword="false"
+          placeholder="国を選択"
+        >
+        <el-option
+          v-for="item in options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+        </el-select>
+        </div>
+        <div>
+          <div>
+            <el-tag>パラメータ</el-tag>
+          </div>
+          <el-select
+          v-model="value2"
+          multiple
+          filterable
+          allow-create
+          default-first-option
+          :reserve-keyword="false"
+          placeholder="パラメータを選択"
+        >
+        <el-option
+          v-for="item in options2"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+        </el-select>
+        </div>
+      </el-aside>
     <el-main> 
       <div>
         <world-card></world-card>
-      </div>
-       
+      </div> 
     </el-main>
   </div>
 </template>

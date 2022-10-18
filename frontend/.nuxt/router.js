@@ -21,6 +21,7 @@ const _a3338cde = () => interopDefault(import('..\\pages\\mingde_university\\fir
 const _c1cf9322 = () => interopDefault(import('..\\pages\\mingde_university\\music_grammar\\index.vue' /* webpackChunkName: "pages/mingde_university/music_grammar/index" */))
 const _5bdec3da = () => interopDefault(import('..\\pages\\mingde_university\\tableau\\index.vue' /* webpackChunkName: "pages/mingde_university/tableau/index" */))
 const _90d8d9ac = () => interopDefault(import('..\\pages\\recipes\\index.vue' /* webpackChunkName: "pages/recipes/index" */))
+const _494c1451 = () => interopDefault(import('..\\pages\\school\\index.vue' /* webpackChunkName: "pages/school/index" */))
 const _1c9e88f4 = () => interopDefault(import('..\\pages\\tomorrow_predict\\index.vue' /* webpackChunkName: "pages/tomorrow_predict/index" */))
 const _0acdca2e = () => interopDefault(import('..\\pages\\world_data\\index.vue' /* webpackChunkName: "pages/world_data/index" */))
 const _00b6d90e = () => interopDefault(import('..\\pages\\recipes\\add.vue' /* webpackChunkName: "pages/recipes/add" */))
@@ -107,6 +108,10 @@ export const routerOptions = {
     path: "/recipes",
     component: _90d8d9ac,
     name: "recipes"
+  }, {
+    path: "/school",
+    component: _494c1451,
+    name: "school"
   }, {
     path: "/tomorrow_predict",
     component: _1c9e88f4,

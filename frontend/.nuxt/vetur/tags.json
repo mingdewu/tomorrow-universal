@@ -5,10 +5,13 @@
   "RecipeCard": {
     "description": "Auto imported from components/RecipeCard.vue"
   },
+  "SchoolWork": {
+    "description": "Auto imported from components/SchoolWork.vue"
+  },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
   "Worldcard": {
-    "description": "Auto imported from components/worldcard.vue"
+    "description": "Auto imported from components/Worldcard.vue"
   }
 }

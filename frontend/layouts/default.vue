@@ -16,6 +16,9 @@
         <nuxt-link class="" to="/recipes">
           /食物
         </nuxt-link>
+        <nuxt-link class="" to="/school">
+          /学习
+        </nuxt-link>
       </el-header>
       <nuxt />
   </div>

@@ -1,13 +1,13 @@
 <template>
-    <el-card class="box-card">
-  <div slot="header" class="clearfix">
-    <span>日本</span>
-    <el-button style="float: right; padding: 3px 0" type="text">詳細</el-button>
-  </div>
-  <div v-for="param in params" :key="param" class="text item">
-    {{param.label}}:{{param.value}}
-  </div>
-</el-card>
+  <el-card class="box-card">
+    <div slot="header" class="clearfix">
+      <span>日本</span>
+      <el-button style="float: right; padding: 3px 0" type="text">詳細</el-button>
+    </div>
+    <div v-for="param in params" :key="param" class="text item">
+      {{param.label}}:{{param.value}}
+    </div>
+  </el-card>
 </template>
 
 <script>

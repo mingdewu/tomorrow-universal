@@ -8,5 +8,6 @@ You can directly use them in pages and other components without the need to impo
 
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<RecipeCard>` | `<recipe-card>` (components/RecipeCard.vue)
+- `<SchoolWork>` | `<school-work>` (components/SchoolWork.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
-- `<Worldcard>` | `<worldcard>` (components/worldcard.vue)
+- `<Worldcard>` | `<worldcard>` (components/Worldcard.vue)
