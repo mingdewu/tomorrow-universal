@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  data(){
+  data(){ 
     return {
     params: [{ label: 'GDPGrowthRate' ,value:'0.9(percent)'}, 
               { label: 'FoodInflation' ,value:'4.7(percent)'},
