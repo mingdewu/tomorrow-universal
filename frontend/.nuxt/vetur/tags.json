@@ -11,7 +11,7 @@
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
-  "Worldcard": {
-    "description": "Auto imported from components/Worldcard.vue"
+  "WorldCard": {
+    "description": "Auto imported from components/WorldCard.vue"
   }
 }

@@ -10,4 +10,4 @@ You can directly use them in pages and other components without the need to impo
 - `<RecipeCard>` | `<recipe-card>` (components/RecipeCard.vue)
 - `<SchoolWork>` | `<school-work>` (components/SchoolWork.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
-- `<Worldcard>` | `<worldcard>` (components/Worldcard.vue)
+- `<WorldCard>` | `<world-card>` (components/WorldCard.vue)

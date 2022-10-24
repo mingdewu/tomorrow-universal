@@ -20,7 +20,20 @@
           /学习
         </nuxt-link>
       </el-header>
-      <nuxt />
+      <div style="text-align:right">
+        <el-dropdown >
+            <el-button type="primary">
+              言語<i class="el-icon-arrow-down el-icon--right"></i>
+            </el-button>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item>日本語</el-dropdown-item>
+              <el-dropdown-item>中文</el-dropdown-item>
+              <el-dropdown-item>English</el-dropdown-item>
+              <el-dropdown-item>한국어</el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
+        <nuxt />
+      </div>
   </div>
 </template>
 <script>
@@ -65,5 +78,14 @@ export default {
   .text-box p {
     font-size: 2rem;
     font-weight: lighter;
+  }
+  .el-dropdown {
+    vertical-align: top;
+  }
+  .el-dropdown + .el-dropdown {
+    margin-left: 15px;
+  }
+  .el-icon-arrow-down {
+    font-size: 12px;
   }
 </style>

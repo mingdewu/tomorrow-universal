@@ -2,7 +2,7 @@ export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as RecipeCard } from '../..\\components\\RecipeCard.vue'
 export { default as SchoolWork } from '../..\\components\\SchoolWork.vue'
 export { default as Tutorial } from '../..\\components\\Tutorial.vue'
-export { default as Worldcard } from '../..\\components\\Worldcard.vue'
+export { default as WorldCard } from '../..\\components\\WorldCard.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
