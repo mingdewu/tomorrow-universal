@@ -15,6 +15,10 @@
     </nav>
   <NuxtChild  />
     <h1>文法修正</h1>
+    <el-button 
+    type="primary"
+    @click="drawer = true">
+    メモ</el-button>
       <div class="input-group">
         <span class="input-group-text">日本語入力</span>
         <el-input
@@ -39,6 +43,13 @@
         v-model="textarea2"
         ></el-input>
       </div>
+      <el-drawer
+      title="メモ"
+      direction="ltr"
+      size="75%"
+      :visible.sync="drawer">
+        <span>内容</span>
+      </el-drawer>
     </div>
 </template>
 <script>
@@ -46,7 +57,8 @@
     data() {
       return {
         textarea1:"商品の存在価値を伝える、お客様の市場価値を高める役割を担います。",
-        teztarea2:"商品の存在価値を伝え、お客様の市場価値を高める役割を担います。"
+        teztarea2:"商品の存在価値を伝え、お客様の市場価値を高める役割を担います。",
+        drawer: false,
       }
     }
   }

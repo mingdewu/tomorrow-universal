@@ -1,6 +1,12 @@
 <template>
   <div>
     <h1>「あしたのデータ収集/予測」開発中</h1>
+    <el-button 
+    @click="drawer = true" 
+    type="primary" 
+    style="margin-left:30px">
+    メモ
+    </el-button>
     <el-aside class="paramstyle">
       <div>
         <div>
@@ -50,6 +56,14 @@
         <world-card></world-card>
       </div> 
     </el-main>
+    <el-drawer
+    title="タイトル"
+    :visible.sync="drawer"
+    :direction="direction"
+    size="75%"
+    >
+      <span>内容</span>
+    </el-drawer>
   </div>
 </template>
 <script>
@@ -98,7 +112,9 @@ export default {
         label: 'MinimumWages'
       }],
       value1: '',
-      value2: ''
+      value2: '',
+      drawer:false,
+      direction:'ltr'
     }
   },
 }
@@ -107,12 +123,14 @@ export default {
 .el-main {
     background-color: #E9EEF3;
     color: #333;
-    float:right;
     width:75%;
   }
 .paramstyle{
   float:left;
   width:25%;
   border:1px solid black;
+}
+el-drawer title {
+  margin:auto
 }
 </style>

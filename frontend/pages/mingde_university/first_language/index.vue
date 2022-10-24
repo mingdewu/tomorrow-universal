@@ -1,9 +1,23 @@
 <template>
   <div style="margin:auto;width:70%">
     <h2>文法理論（準備中）</h2>
+    <el-button 
+    @click="drawer = true" 
+    type="primary" 
+    style="margin-left:30px">
+    メモ
+    </el-button>
     <div>
       <el-tree :data="data" :props="defaultProps" @node-click="handleNodeClink"></el-tree>
     </div>
+    <el-drawer
+    title="タイトル"
+    :visible.sync="drawer"
+    :direction="direction"
+    size="75%"
+    >
+      <span>内容</span>
+    </el-drawer>
   </div>
 </template>
 <script>
@@ -62,6 +76,8 @@ export default {
         },
       ]}
     ],
+      drawer:false,
+      direction:'ltr',
       defaultProps: {
         children: 'children',
         label: 'label'

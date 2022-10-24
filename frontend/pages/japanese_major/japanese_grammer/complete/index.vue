@@ -15,6 +15,12 @@
     </nav>
   <NuxtChild  />
       <h1>埋め込み</h1>
+      <el-button 
+        @click="drawer = true" 
+        type="primary" 
+        style="margin-left:30px">
+        メモ
+      </el-button>
       <div>
         <el-tag type="success">こん感じ文章を入力！</el-tag>
       </div>
@@ -29,6 +35,14 @@
         v-model="input2"
         placeholder="">
       </el-input>  
+      <el-drawer
+        title="タイトル"
+        :visible.sync="drawer"
+        :direction="direction"
+        size="75%"
+        >
+          <span>内容</span>
+      </el-drawer>
     </div>
 </template>
 
@@ -37,7 +51,9 @@ export default {
     data() {
       return {
         input1:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に＿＿ことができます。',
-        input2:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。'
+        input2:'研究課題や技術課題をご提案いただき、別途ワーキンググループ等を設置して研究開発課題に取り組むことができます。',
+        drawer:false,
+        direction:'ltr'
       }
     }
   }

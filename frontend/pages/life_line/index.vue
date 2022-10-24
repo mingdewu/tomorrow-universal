@@ -2,7 +2,7 @@
     <div>
       <h1>ライフ ライン(life line)開発中</h1>
       <el-button @click="dialog = true" type = "primary" style="margin-left:30px;">
-        记录
+        memo
       </el-button>
       <div class="block">
         <el-image :src="src">
@@ -14,10 +14,9 @@
       <el-drawer
       title="记录"
       :visible.sync="dialog"
-      :with-header="false"
       direction="ltr"
       custom-class="demo-drawer"
-      size="80%"
+      size="75%"
       :before-close="handleClose"
       ref="drawer">
         <div class="drawer_content">
