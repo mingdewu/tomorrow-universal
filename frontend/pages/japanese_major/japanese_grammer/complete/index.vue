@@ -16,6 +16,7 @@
   <NuxtChild  />
       <h1>埋め込み</h1>
       <el-button 
+        
         @click="drawer = true" 
         type="primary" 
         style="margin-left:30px">
@@ -36,12 +37,12 @@
         placeholder="">
       </el-input>  
       <el-drawer
+        direction ="ltr"
+        size = 66.6%
         title="タイトル"
         :visible.sync="drawer"
-        :direction="direction"
-        size="75%"
-        >
-          <span>内容</span>
+        :with-header="false">
+        <h1>メモ</h1>
       </el-drawer>
     </div>
 </template>

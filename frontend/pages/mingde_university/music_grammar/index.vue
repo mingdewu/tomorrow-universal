@@ -17,12 +17,13 @@
       </ol>
     </div>
     <el-drawer
+    :with-header="false"
     title="タイトル"
     :visible.sync="drawer"
     :direction="direction"
     size="75%"
     >
-      <span>内容</span>
+      <h1>メモ</h1>
     </el-drawer>
   </div>
 </template>

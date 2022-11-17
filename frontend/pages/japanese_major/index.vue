@@ -19,7 +19,7 @@
 				</li>
 				<li>
 					<NuxtLink class="text-decoration-underline" to="/japanese_major/japanese_classicalchinese_model">
-						古漢語-日本語モデル
+						古漢語-日本語翻訳モデル
 					</NuxtLink>
 				</li>
 			</ul>

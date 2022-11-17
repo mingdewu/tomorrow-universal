@@ -1,8 +1,12 @@
 <template>
     <div>
       <h1>ライフ ライン(life line)開発中</h1>
-      <el-button @click="dialog = true" type = "primary" style="margin-left:30px;">
-        memo
+      <el-button 
+        :with-header="false"  
+        @click="dialog = true" 
+        type = "primary" 
+        style="margin-left:30px;">
+        メモ
       </el-button>
       <div class="block">
         <el-image :src="src">
@@ -12,6 +16,7 @@
         </el-image>
       </div>
       <el-drawer
+      :with-header="false"
       title="记录"
       :visible.sync="dialog"
       direction="ltr"
@@ -20,6 +25,7 @@
       :before-close="handleClose"
       ref="drawer">
         <div class="drawer_content">
+          <h1>メモ</h1>
           <el-form :model="form" class="drawer_content">
             <el-form-item label="主题" :label-width="formLabelWidth">
               <el-input 

@@ -26,6 +26,8 @@
 		</nav>
 	</div>
 </template>
+<script>
+</script>
 <style>
 ul {
 	list-style-type: none;

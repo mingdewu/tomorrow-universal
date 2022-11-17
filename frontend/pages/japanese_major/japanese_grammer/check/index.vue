@@ -13,12 +13,13 @@
         </li>
       </ul>
     </nav>
-  <NuxtChild  />
-    <h1>文法修正</h1>
     <el-button 
     type="primary"
-    @click="drawer = true">
+    @click="drawer = true"
+    style="margin-left: 16px;">
     メモ</el-button>
+  <NuxtChild  />
+    <h1>文法修正</h1>
       <div class="input-group">
         <span class="input-group-text">日本語入力</span>
         <el-input
@@ -44,11 +45,12 @@
         ></el-input>
       </div>
       <el-drawer
-      title="メモ"
-      direction="ltr"
-      size="75%"
-      :visible.sync="drawer">
-        <span>内容</span>
+        direction ="ltr"
+        size = 66.6%
+        title="我是标题"
+        :visible.sync="drawer"
+        :with-header="false">
+        <h1>メモ</h1>
       </el-drawer>
     </div>
 </template>

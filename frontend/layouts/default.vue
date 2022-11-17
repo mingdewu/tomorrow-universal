@@ -8,7 +8,7 @@
         /ライフ ライン
         </nuxt-link>
         <nuxt-link class="" to="/mingde_university">
-        <a>/呉 明徳 研究室</a>
+        /呉 明徳 研究室
         </nuxt-link>
         <nuxt-link class="" to="/tomorrow_predict">
         /世界データ収集予測
