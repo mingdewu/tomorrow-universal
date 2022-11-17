@@ -1,10 +1,11 @@
 <template>
-    <el-main >
-      <div class="row">
-        <div class="col-12 text-center my-3">
+    <el-main style="margin:auto;text-align: auto;">
+      <h1>レシピ</h1>
+      <div>
+        <div class="col-12" style="border-top: 1px black solid;">
           <h2 class="mb-3 display-4 text-uppercase">{{ recipe.name }}</h2>
         </div>
-        <div >
+        <div>
           <img
             v-if="preview"
             class="img-fluid"
@@ -15,50 +16,50 @@
           <img
             v-else
             class="img-fluid"
-            style="width: 400px; border-radius: 10px; box-shadow: 0 1rem 1rem rgba(0,0,0,.7);"
-            src="@/static/images/banner.jpg"
+            style="width: 400px;height: 400px; border-radius: 10px; box-shadow: 0 1rem 1rem rgba(0,0,0,.7);"
+            src="@/static/images/1011.jpg"
           >
         </div>
         <div>
           <form @submit.prevent="submitRecipe">
             <div class="form-group">
-              <label for>Recipe Name</label>
+              <label for>レシピ名</label>
               <input type="text" class="form-control" v-model="recipe.name">
             </div>
             <div class="form-group">
-              <label for>Ingredients</label>
+              <label for>原料</label>
               <input v-model="recipe.ingredients" type="text" class="form-control">
             </div>
             <div class="form-group">
-              <label for>Food picture</label>
+              <label for>写真</label>
               <input type="file" name="file" @change="onFileChange">
             </div>
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for>Difficulty</label>
+                  <label for>難易度</label>
                   <select v-model="recipe.difficulty" class="form-control">
-                    <option value="Easy">Easy</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hard">Hard</option>
+                    <option value="Easy">簡単</option>
+                    <option value="Medium">一般</option>
+                    <option value="Hard">困難</option>
                   </select>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <label for>
-                    Prep time
-                    <small>(minutes)</small>
+                    準備時間
+                    <small>(分)</small>
                   </label>
                   <input v-model="recipe.prep_time" type="number" class="form-control">
                 </div>
               </div>
             </div>
             <div class="form-group mb-3">
-              <label for>Preparation guide</label>
+              <label for>ナビ</label>
               <textarea v-model="recipe.prep_guide" class="form-control" rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">提出</button>
           </form>
         </div>
       </div>
@@ -68,7 +69,7 @@
   export default {
     head() {
       return {
-        title: "Add Recipe"
+        title: "追加レシピ"
       };
     },
     data() {
@@ -121,4 +122,8 @@
   };
   </script>
   <style scoped>
+  .el-main{
+    text-align: center;
+    
+  }
   </style>

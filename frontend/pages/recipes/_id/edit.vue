@@ -1,7 +1,8 @@
 <template>
-    <main class="container my-5">
+    <el-main class="container my-5" style="margin:auto;text-align: auto;">
+        <h1>レシピ</h1>
         <div class="row">
-            <div class="col-12 text-center my-3">
+            <div class="col-12 text-center my-3" style="border-top: 1px black solid;">
                 <h2 class="mb-3 display-4 text-uppercase">
                     {{recipe.name}}
                 </h2>
@@ -21,7 +22,7 @@
                         <input type="text" v-model="recipe.ingredients" class="form-control" name="Ingredients">
                     </div>
                     <div class="form-group">
-                        <label for>Food picture</label>
+                        <label for>写真</label>
                         <input type="file" @change="onFileChange">
                     </div>
                     <div class="row">
@@ -54,7 +55,7 @@
                 </form>
             </div>
         </div>
-    </main>
+    </el-main>
 </template>
 <script>
 export default {
@@ -127,4 +128,7 @@ export default {
 }
 </script>
 <style scoped>
+.el-main{
+    text-align: center;
+}
 </style>

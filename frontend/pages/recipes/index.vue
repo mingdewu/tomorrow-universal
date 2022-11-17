@@ -1,8 +1,7 @@
 <template>
   <div>
     <div>
-      <div style="text-align:right; font-size:14px">
-        <h3>レシピ</h3>
+      <div style="text-align:center; font-size:26px">
         <nuxt-link to="/recipes/add">レシピ追加</nuxt-link>
       </div>
     </div>

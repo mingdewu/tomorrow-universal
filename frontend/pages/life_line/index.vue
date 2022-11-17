@@ -17,7 +17,6 @@
       </div>
       <el-drawer
       :with-header="false"
-      title="记录"
       :visible.sync="dialog"
       direction="ltr"
       custom-class="demo-drawer"
@@ -46,7 +45,6 @@
             <el-button type="primary" @click="$refs.drawer.closeDrawer()">确 定</el-button>
           </div>
         </div>
-
       </el-drawer>
   </div>
 </template>

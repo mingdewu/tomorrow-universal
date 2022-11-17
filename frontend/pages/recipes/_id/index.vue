@@ -1,8 +1,8 @@
 <template>
-    <main >
-        <div >
-            <div >
-                <h2 >{{recipe.name}}</h2>
+    <main>
+        <div style="text-align:center; font-size:20px">
+            <div>
+                <h2>料理{{recipe.name}}</h2>
             </div>
             <div >
                 <img
@@ -14,13 +14,13 @@
             </div>
             <div>
                 <div class="recipe-details">
-                    <h4>Ingredients</h4>
+                    <h4>原料</h4>
                     <p>{{ recipe.ingredients }}</p>
-                    <h4>Preparation time ⏱</h4>
-                    <p>{{ recipe.prep_time }} mins</p>
-                    <h4>Difficulty</h4>
+                    <h4>準備時間 ⏱</h4>
+                    <p>{{ recipe.prep_time }} 分</p>
+                    <h4>難易度</h4>
                     <p>{{ recipe.difficulty }}</p>
-                    <h4>Preparation guide</h4>
+                    <h4>ナビ</h4>
                     <textarea rows="10" v-html="recipe.prep_guide" disabled />
                 </div>
             </div>
