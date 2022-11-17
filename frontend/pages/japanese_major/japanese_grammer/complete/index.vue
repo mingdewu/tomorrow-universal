@@ -13,15 +13,14 @@
         </li>
       </ul>
     </nav>
-  <NuxtChild  />
+    <el-button 
+      @click="drawer = true" 
+      type="primary" 
+      style="margin-left:30px">
+      メモ
+    </el-button>
+    <NuxtChild />
       <h1>埋め込み</h1>
-      <el-button 
-        
-        @click="drawer = true" 
-        type="primary" 
-        style="margin-left:30px">
-        メモ
-      </el-button>
       <div>
         <el-tag type="success">こん感じ文章を入力！</el-tag>
       </div>

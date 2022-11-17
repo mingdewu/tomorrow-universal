@@ -13,14 +13,14 @@
         </li>
       </ul>
     </nav>
-    <NuxtChild />
-    <h1>作文</h1>
     <el-button 
       @click="drawer = true" 
       type="primary" 
       style="margin-left:30px">
       メモ
     </el-button>
+    <NuxtChild />
+    <h1>作文</h1>
     <div class="form-check">
       <el-tag>語彙入力</el-tag>
       <el-input v-model="input1" placeholder=""></el-input>
