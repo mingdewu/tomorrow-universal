@@ -1,51 +1,68 @@
 <template>
-    <div>
-      <h1>ライフ ライン(life line)開発中</h1>
-      <el-button 
-        :with-header="false"  
-        @click="dialog = true" 
-        type = "primary" 
-        style="margin-left:30px;">
-        メモ
-      </el-button>
-      <div class="block">
-        <el-image :src="src">
-          <div slot="placeholder" class="image-slot">
-            loading<span class="dot">...</span>
-          </div>
-        </el-image>
-      </div>
-      <el-drawer
-      :with-header="false"
-      :visible.sync="dialog"
-      direction="ltr"
-      custom-class="demo-drawer"
-      size="75%"
-      :before-close="handleClose"
-      ref="drawer">
-        <div class="drawer_content">
-          <h1>メモ</h1>
-          <el-form :model="form" class="drawer_content">
-            <el-form-item label="主题" :label-width="formLabelWidth">
-              <el-input 
-              v-model="form.theme" 
-              autocomplete="off">
-              </el-input>
-            </el-form-item>
-            <el-form-item label="内容" :label-width="formLabelWidth">
-              <el-input  
-              type="textarea" 
-              v-model="form.content" 
-              autocomplete="off"  
-              :autosize="{ minRows: 10, maxRows: 14}"></el-input>
-              </el-form-item>
-          </el-form>
-          <div class="drawer_footer">
-            <el-button @click="$refs.drawer.closeDrawer()">取 消</el-button>
-            <el-button type="primary" @click="$refs.drawer.closeDrawer()">确 定</el-button>
-          </div>
+  <div>
+    <h1>ライフ ライン(life line)開発中</h1>
+    <el-button 
+      :with-header="false"  
+      @click="dialog = true" 
+      type = "primary" 
+      style="margin-left:30px;">
+      メモ
+    </el-button>
+    <div class="block">
+      <el-image :src="src">
+        <div slot="placeholder" class="image-slot">
+          loading<span class="dot">...</span>
         </div>
-      </el-drawer>
+      </el-image>
+    </div>
+    <el-drawer
+    :with-header="false"
+    :visible.sync="dialog"
+    direction="ltr"
+    custom-class="demo-drawer"
+    size="75%"
+    :before-close="handleClose"
+    ref="drawer">
+      <div class="drawer_content">
+        <h1>メモ</h1>
+      </div>
+      <div>
+        <el-button type="primary" @click="innerDrawer = true" id="write-b">書き</el-button>
+        <el-drawer
+          :append-to-body="true"
+          direction ="ltr"
+          size="50%"
+          :before-close="handleClose"
+          :with-header="false"
+          :visible.sync="innerDrawer"
+          custom-class="demo-drawer"
+          ref="innerDrawer">
+          <div class="drawer_content">
+            <h1>メモ</h1>
+            <el-form  :model="form" class="drawer_content">
+              <el-form-item label="主题" :label-width="formLabelWidth">
+                <el-input
+                v-model="form.theme"
+                autocomplete="off">
+              </el-input>
+              </el-form-item>
+              <el-form-item label="内容" :label-width="formLabelWidth">
+                <el-input  
+                  type="textarea" 
+                  v-model="form.content" 
+                  autocomplete="off"  
+                  :autosize="{ minRows: 10, maxRows: 14}">
+                </el-input>
+              </el-form-item>
+            </el-form>
+            <div class="drawer_footer">
+              <el-button @click="$refs.innerDrawer.closeDrawer()">取 消</el-button>
+              <el-button type="primary" @click="$refs.innerDrawer.closeDrawer()">确 定</el-button>
+            </div>
+          </div> 
+        </el-drawer>
+      </div>
+    </el-drawer>
   </div>
 </template>
 
@@ -54,6 +71,8 @@ export default {
     data(){
       return {
         src: '/images/lifeline.png',
+        drawer:false,
+        innerDrawer:false,
         dialog:false,
         form:{
           theme :'',
