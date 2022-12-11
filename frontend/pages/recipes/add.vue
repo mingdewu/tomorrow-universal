@@ -112,7 +112,7 @@
           formData.append(data, this.recipe[data]);
         }
         try {
-          let response = await this.$axios.$post("/recipes/", formData, config);
+          let response = await this.$axios.$post("recipes/", formData, config);
           this.$router.push("/recipes/");
         } catch (e) {
           console.log(e);

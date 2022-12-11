@@ -21,7 +21,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("recipe/",include('recipe.urls')),
-    path("school/",include('school.urls'))
+    path("school/",include('school.urls')),
+    path("lifeline/",include("lifeline.urls")),
 ]
 # 追加
 if settings.DEBUG:

@@ -28,6 +28,11 @@
       </div>
       <div>
         <el-button type="primary" @click="innerDrawer = true" id="write-b">書き</el-button>
+        <div v-for="lifeline in life_line">
+          <div :key="lifeline.id">
+            <lifeline-card :onDelete="deletelifeline" :lifeline="lifeline"></lifeline-card>
+          </div>
+        </div>
         <el-drawer
           :append-to-body="true"
           direction ="ltr"
@@ -56,7 +61,7 @@
               </el-form-item>
             </el-form>
             <div class="drawer_footer">
-              <el-button @click="$refs.innerDrawer.closeDrawer()">取 消</el-button>
+              <el-button @click="$refs.innerDrawer.closeDrawer()">キャンセル</el-button>
               <el-button type="primary" @click="$refs.innerDrawer.closeDrawer()">确 定</el-button>
             </div>
           </div> 
@@ -67,9 +72,27 @@
 </template>
 
 <script>
+import LifeLineCard from '~/components/LifeLineCard.vue';
 export default {
+  head(){
+    return{
+      title:"メモ"  
+    }
+  },
+  comments:{
+    LifeLineCard
+  },
+  async asyncData({$axios,params}){
+    try{
+      let life_line = await $axios.$get('/life_line');
+      return {life_line};
+    }catch(e){
+      return { life_line:[]}
+    }
+  },
     data(){
       return {
+        life_line:[],
         src: '/images/lifeline.png',
         drawer:false,
         innerDrawer:false,
@@ -83,6 +106,15 @@ export default {
       };
     },
     method:{
+      async deletelifeline(lifeline_id){
+        try{
+          await this.$aos.$delete(`/life_line/${lifeline_id}/`);
+          let newlife_line = await this.$axios.$get("/life_line/");
+          this.recipes = newlife_line;
+        } catch(e){
+          console.log(e);
+        }
+      },
       handleClose(done) {
       if (this.loading) {
         return;
