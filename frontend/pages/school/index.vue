@@ -2,7 +2,7 @@
     <div>
         <div>
             <h3>this is a school record</h3>
-            <nuxt-link to="/schoolworks/add">
+            <nuxt-link to="/school/add">
               增加学习记录
             </nuxt-link>
             <el-button
@@ -78,21 +78,22 @@ export default {
       schoolworks: []
     }
   },
-  asyncData (context) {
-    let data = sampleData
-    return {
-        schoolworks: data,
-        drawer:false,
-        innerDrawer:false,
-        form:{
-          theme:'',
-          content:''
-        },
+  async asyncData ({ $axios, params }) {
+    try {
+      const waterplants = await $axios.$get(`/schoolwork/`)
+      return { waterplants}
+    } catch(e){
+      return { schoolworks:{}}
     }
   },
   methods: {
-    deleteschoolwork (schoolwork_id) {
-      console.log(deleted`${schoolwork.id}`)
+    async deleteSchoolWork (schoolwork_id){
+      try { await this.$axios.$delete(`/shcoolwors/${schoolwork_id}/`)
+    const newSchoolWorks = await this.$axios.$get(`/schoolworks/`)
+    this.schoolworks = newSchoolWorks}
+    catch(e){
+      console.log(e)
+    }
     }
   }
 }

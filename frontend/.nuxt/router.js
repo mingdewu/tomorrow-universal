@@ -25,6 +25,7 @@ const _afd1d758 = () => interopDefault(import('..\\pages\\school\\index.vue' /* 
 const _4d69d3c9 = () => interopDefault(import('..\\pages\\tomorrow_predict\\index.vue' /* webpackChunkName: "pages/tomorrow_predict/index" */))
 const _0c4310b1 = () => interopDefault(import('..\\pages\\world_data\\index.vue' /* webpackChunkName: "pages/world_data/index" */))
 const _55480716 = () => interopDefault(import('..\\pages\\recipes\\add.vue' /* webpackChunkName: "pages/recipes/add" */))
+const _128a5723 = () => interopDefault(import('..\\pages\\school\\add.vue' /* webpackChunkName: "pages/school/add" */))
 const _52e74d25 = () => interopDefault(import('..\\pages\\life_line\\_id\\index.vue' /* webpackChunkName: "pages/life_line/_id/index" */))
 const _b31c541a = () => interopDefault(import('..\\pages\\recipes\\_id\\index.vue' /* webpackChunkName: "pages/recipes/_id/index" */))
 const _7f64cd46 = () => interopDefault(import('..\\pages\\school\\_id\\index.vue' /* webpackChunkName: "pages/school/_id/index" */))
@@ -127,6 +128,10 @@ export const routerOptions = {
     path: "/recipes/add",
     component: _55480716,
     name: "recipes-add"
+  }, {
+    path: "/school/add",
+    component: _128a5723,
+    name: "school-add"
   }, {
     path: "/life_line/:id",
     component: _52e74d25,
