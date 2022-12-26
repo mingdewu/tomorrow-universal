@@ -1,8 +1,8 @@
 <template>
   <el-card class="box-card">
     <div slot="header" class="clearfix">
-      <span>{{schooworks.classify}}</span>
-			<span>{{schooworks.date}}</span>
+      <span>{{SchoolWork.title}}</span>
+			<span>{{SchoolWork.date}}</span>
 		</div>
 		<div class="action-buttons">
 			<nuxt-link :to="`/waterplants/${waterplant.id}/`" class="btn btn-sm btn-success">
@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-  props: ['schoolwork', 'onDelete']
+  props: ['SchoolWork', 'onDelete']
 }
 </script>
 <style>

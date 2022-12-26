@@ -4,7 +4,7 @@ pipenv shell
 cd mypage
 python manage.py runserver
 
-cd /frontend
+cd frontend
 npm run dev
 
 delete package.json    //"lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",

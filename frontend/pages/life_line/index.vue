@@ -76,7 +76,7 @@ import LifeLineCard from '~/components/LifeLineCard.vue';
 export default {
   head(){
     return{
-      title:"メモ"  
+      title:"life_line"  
     }
   },
   comments:{

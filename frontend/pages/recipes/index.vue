@@ -19,7 +19,7 @@ import RecipeCard from "~/components/RecipeCard.vue";
 export default{
     head(){
         return {
-            title:"Recipes list"
+            title:"Recipes"
         };
     },
     components:{

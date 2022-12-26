@@ -1,15 +1,14 @@
 from rest_framework import serializers
-from .models import schoolworks
+from .models import SchoolWorks
 
 
-class schoolworksSerializer(serializers.ModelSerializer):
+class SchoolWorksSerializer(serializers.ModelSerializer):
     class Meta:
-        model = schoolworks
+        model = SchoolWorks
         fields = (
+            "title",
             "classify",
-            "name",
             "picture",
-            "difficulty",
-            "ate",
-            "study_quality",
+            "date",
+            "content",
         )

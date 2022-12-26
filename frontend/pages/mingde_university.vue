@@ -1,6 +1,6 @@
 <template>
     <div>
-    <h1>呉 明徳 研究室</h1>
+    <h1>研究</h1>
     <NuxtChild  />
   </div>
 </template>

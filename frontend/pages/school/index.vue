@@ -3,9 +3,28 @@
         <div>
             <h3>this is a school record</h3>
             <nuxt-link to="/schoolworks/add">
-            增加学习记录
+              增加学习记录
             </nuxt-link>
+            <el-button
+              :with-header="false"  
+              @click="dialog = true" 
+              type = "primary" 
+              style="margin-left:30px;">
+              記録
+            </el-button>
         </div>
+        <el-drawer
+        :with-header="false"
+        :visible.sync="dialog"
+        direction="ltr"
+        custom-class="demo-drawer"
+        size="75%"
+        :before-close="handleClose"
+        ref="drawer">
+          <div class="drawer_content">
+            <h1>メモ</h1>
+          </div>
+        </el-drawer>
         <div v-for="schoolwork in schoolworks">
             <div :key="schoolwork.id" >
                 <school-work-card :onDelete="deleteschoolwork" :schoolwork="schoolwork"></school-work-card>
@@ -48,7 +67,7 @@ const sampleData = [
 export default {
   head () {
     return {
-      title: 'waterplants list'
+      title: 'school'
     }
   },
   components: {
@@ -62,7 +81,13 @@ export default {
   asyncData (context) {
     let data = sampleData
     return {
-        schoolworks: data
+        schoolworks: data,
+        drawer:false,
+        innerDrawer:false,
+        form:{
+          theme:'',
+          content:''
+        },
     }
   },
   methods: {

@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import schoolworks
+from .models import SchoolWorks
 # Register your models here.
-admin.site.register(schoolworks)
+admin.site.register(SchoolWorks)
