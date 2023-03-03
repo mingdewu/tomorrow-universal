@@ -1,3 +1,5 @@
+export { default as BaseHeader } from '../..\\components\\BaseHeader.vue'
+export { default as BaseHeading } from '../..\\components\\BaseHeading.vue'
 export { default as LifeLineCard } from '../..\\components\\LifeLineCard.vue'
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as RecipeCard } from '../..\\components\\RecipeCard.vue'

@@ -1,4 +1,10 @@
 {
+  "BaseHeader": {
+    "description": "Auto imported from components/BaseHeader.vue"
+  },
+  "BaseHeading": {
+    "description": "Auto imported from components/BaseHeading.vue"
+  },
   "LifeLineCard": {
     "description": "Auto imported from components/LifeLineCard.vue"
   },
