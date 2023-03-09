@@ -9,7 +9,7 @@
             class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap"
             href="/"
           >
-            MdN Cafe
+            ホームページ
           </a>
         </h1>
         <div class="text-white md:hidden">
@@ -34,35 +34,35 @@
         <ul class="md:flex md:justify-end md:items-end">
           <li class="w-full md:w-auto md:ml-5">
             <a
-              href="/concept/"
+              href="/japanese_major/"
               class="text-white md:block inline-block md:py-0 py-5 px-5 md:px-0 w-full"
               >日本語勉強</a
             >
           </li>
           <li class="w-full md:w-auto md:ml-5">
             <a
-              href="/shop/"
+              href="/life_line/"
               class="text-white md:block inline-block md:py-0 py-5 px-5 md:px-0 w-full"
               >ライフライン</a
             >
           </li>
           <li class="w-full md:w-auto md:ml-5">
             <a
-              href="/menu/"
+              href="/mingde_university/"
               class="text-white md:block inline-block md:py-0 py-5 px-5 md:px-0 w-full"
               >博士課程</a
             >
           </li>
           <li class="w-full md:w-auto md:ml-5">
             <a
-              href="/information/"
+              href="/tomorrow_predict/"
               class="text-white md:block inline-block md:py-0 py-5 px-5 md:px-0 w-full"
               >明日</a
             >
           </li>
           <li class="w-full md:w-auto md:ml-5">
             <a
-              href="/information/"
+              href="/tomorrow_universal_news/"
               class="text-white md:block inline-block md:py-0 py-5 px-5 md:px-0 w-full"
               >新聞</a
             >
