@@ -12,7 +12,7 @@
           <p v-if="flagBody" class="text-base mb-2">
             MdNカフェオリジナルパンケーキ。 自然素材にこだわったパンケーキです。
           </p>
-          <p class="text-gray-700 text-base mb-4">300円（税込）</p>
+          <p class="text-gray-700 text-base mb-4">3000円（税込）</p>
         </div>
       </div>
     </div>
