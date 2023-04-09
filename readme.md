@@ -5,6 +5,7 @@ cd mypage
 python manage.py runserver
 
 cd frontend
+npm install
 npm run dev
 
 delete package.json    //"lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
