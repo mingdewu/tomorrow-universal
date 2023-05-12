@@ -8,7 +8,7 @@
       <div class="clearfix p-4 mb-10">
         <img
           class="float-right ml-4 my-2 h-56"
-          src="~/assets/img/12.jpg"
+          src="~/assets/img/tomorrow-home.jpg"
         />
         <div>
           <p class="mb-5">

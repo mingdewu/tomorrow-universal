@@ -9,7 +9,7 @@
       <div class="flex flex-wrap justify-between mb-20 md:mb-0">
         <div class="md:w-56 mb-20 shadow-lg bg-gray-200">
           <div class="max-w">
-            <img src="~/assets/img/12.jpg" alt="商品名" class="w-full" />
+            <img src="~/assets/img/tomorrow-home.jpg" alt="商品名" class="w-full" />
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">アメリカンコーヒー</div>
               <p class="text-gray-700 text-base mb-4">480</p>

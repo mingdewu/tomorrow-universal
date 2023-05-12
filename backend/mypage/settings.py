@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-td530xly#22cplv=ro2@2i6*!8fd_(0dbb5s#_8npie_l@t1o_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.84.33.121']
+STATIC_ROOT = '/var/www/mysite/assets/'
 
 
 # Application definition
@@ -110,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "ja"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Tokyo'"
 
 USE_I18N = True
 
