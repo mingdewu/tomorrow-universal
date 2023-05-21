@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-td530xly#22cplv=ro2@2i6*!8fd_(0dbb5s#_8npie_l@t1o_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.84.33.121']
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1']
 STATIC_ROOT = '/var/www/mysite/assets/'
 
 

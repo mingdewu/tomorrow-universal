@@ -5,15 +5,16 @@
     title="tomorrow-universal"
     message="flatter world"></layout-visual>
     <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
-      <base-heading>my project</base-heading>
+      <base-heading>項目</base-heading>
       <div class="flex flex-wrap justify-between mb-20 md:mb-0">
-        <div class="md:w-56 mb-20 shadow-lg bg-gray-200">
-          <div class="max-w">
-            <img src="~/assets/img/tomorrow-home.jpg" alt="商品名" class="w-full" />
+        <div class="md:w-56 mb-20 shadow-lg bg-gray-200" >
+          <div class="max-w" >
+            <!-- <img src="~/assets/img/tomorrow-home.jpg" alt="商品名" class="w-full" />
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">アメリカンコーヒー</div>
               <p class="text-gray-700 text-base mb-4">480</p>
-            </div>
+            </div> -->
+            <ProjectCard></ProjectCard>
           </div>
         </div>
       </div>
@@ -36,6 +37,7 @@
 </template>
 
 <script>
+import ProjectCard from "../components/ProjectCard.vue";
 import BaseHeading from '../components/BaseHeading.vue'
 import LayoutHeader from '../components/LayoutHeader.vue'
 import LayoutWrapper from '../components/LayoutWrapper.vue'
