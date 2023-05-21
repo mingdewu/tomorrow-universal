@@ -38,5 +38,9 @@
     "stylelint": "^14.1.0",
     "stylelint-config-recommended-vue": "^1.1.0",
     "stylelint-config-standard": "^24.0.0"
-  }
+  },
+  "description": "```bash\r # install dependencies\r $ npm install",
+  "main": ".eslintrc.js",
+  "author": "mingdewu",
+  "license": "ISC"
 }
